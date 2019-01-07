@@ -4,7 +4,7 @@ require_once __DIR__ . "/init.php";
 
 if(!isset($_SERVER['PATH_INFO']))
 {
-	header("Location: index.php/blog");
+	header("Location: index.php/home");
 }
 
 $pathInfo = $_SERVER['PATH_INFO'];
